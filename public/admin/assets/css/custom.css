@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap");
+
+* {
+    font-family: "Roboto Mono", monospace;
+}
+
+nav #logoutBtn {
+    font-size: 15px;
+}
+
+.row > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    min-height: 91.13vh;
+    
+}
+
+
+.circle-with-text {
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+}
+
+#chatHistory {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height:578px;
+}
+
+#chatHistoryVoice, #imageHistory {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height:554px;
+}
+
+.chatHistoryBtn {
+    height: 40px;
+}
+
+#voiceOnlyControl {
+    margin-top: -200px;
+}
